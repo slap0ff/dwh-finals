@@ -1,0 +1,10 @@
+TRUNCATE finals_dwh.dim_aircrafts cascade;
+truncate finals_dwh.rejected_dim_aircrafts cascade;
+truncate finals_dwh.dim_airports cascade;
+truncate finals_dwh.rejected_dim_airports cascade;
+truncate finals_dwh.dim_passengers  cascade;
+truncate finals_dwh.rejected_dim_passengers  cascade;
+truncate finals_dwh.dim_tariff  cascade;
+truncate finals_dwh.rejected_dim_tariff  cascade;
+truncate finals_dwh.fact_flights  cascade;
+truncate finals_dwh.rejected_fact_flights  cascade;
